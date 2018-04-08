@@ -9,12 +9,9 @@
 安装 sublime babel插件  
 
 #### intelligence  
-* step 1: install typings   
+* install @type   
 ```shell
-> npm install typings --global  
-```
-* step 2: install react ts definitions  
-```shell
-> typings init  
-> typings install dt~react   
+> npm install --save @types/react 
+#或者  
+> yarn add @types/react 
 ```
